@@ -4,12 +4,18 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "tslint 'index.ts'"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "pre-commit": "^1.2.2",
+    "tslint": "^5.18.0",
     "typescript": "^3.5.2"
-  }
+  },
+  "pre-commit": [
+    "lint"
+  ]
 }
