@@ -28,7 +28,7 @@
         "no-internal-module": true,
         "no-var-requires": false,
         "typedef": [
-            true,
+            false,
             "call-signature",
             "parameter",
             "arrow-parameter",
@@ -59,7 +59,7 @@
         ],
         "no-debugger": true,
         "no-arg": true,
-        "no-invalid-this": true,
+        "no-invalid-this": false,
         "no-shadowed-variable": true,
         "no-var-keyword": true,
         "use-isnan": true,

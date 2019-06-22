@@ -5,7 +5,8 @@
   "main": "old/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "tslint 'old/index.ts'"
+    "lint": "tslint 'old/index.ts'",
+    "start": "webpack-dev-server"
   },
   "keywords": [],
   "author": "",
