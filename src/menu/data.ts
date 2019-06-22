@@ -1,9 +1,3 @@
-export interface IListItem {
-    title: string;
-    items?: IListItem[];
-}
-
-
 export const menuList: IListItem[] = [
     {
         title: 'Животный',

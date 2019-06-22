@@ -2,11 +2,11 @@ import { generateMenu } from './menu';
 import { menuList } from './menu/data';
 import './menu/style.css';
 
-const el: HTMLDivElement = document.querySelector('.menu') as HTMLDivElement;
+// declare function $(selector: string): any;
 
-el.innerHTML = generateMenu(menuList);
-el.addEventListener('click', (e: MouseEvent) => {
-    const aEl: HTMLAnchorElement = e.target as HTMLAnchorElement;
+const el: JQuery = $('.menu');
+el.html(generateMenu(menuList)).on('click', (e: JQuery.Event) => {
+    const aEl: HTMLAnchorElement = (e as any).target as HTMLAnchorElement;
     const {classList: cl} = aEl;
     if (!cl.contains('title')) {
         return;

@@ -1,5 +1,3 @@
-import { IListItem } from './data';
-
 export function generateMenu(list: IListItem[]): string {
     let output: string = `<ul>`;
     for (const item of list) {

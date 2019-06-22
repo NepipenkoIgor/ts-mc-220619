@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/jquery": "^3.3.29",
     "css-loader": "^3.0.0",
     "html-webpack-plugin": "^3.2.0",
     "pre-commit": "^1.2.2",
