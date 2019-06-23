@@ -1,4 +1,4 @@
-import { average } from './index';
+import { average } from '../src';
 
 describe('Test average', () => {
     it('should work', () => {

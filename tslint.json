@@ -28,7 +28,7 @@
         "no-internal-module": true,
         "no-var-requires": false,
         "typedef": [
-            true,
+            false,
             "call-signature",
             "parameter",
             "arrow-parameter",
@@ -83,7 +83,7 @@
             true,
             2
         ],
-        "no-default-export": true,
+        "no-default-export": false,
         "prefer-const": true,
         "array-type": [
             true,
